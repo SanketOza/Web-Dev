@@ -1,0 +1,15 @@
+h3{
+    color:red;
+    background-color: aqua;
+}
+
+button{
+    background-color: antiquewhite;
+    color: darkcyan;
+}
+
+p{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #008080;  /* hexadecimal form of color "Teal" */
+    background: orange;
+}

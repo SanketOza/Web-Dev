@@ -1,0 +1,43 @@
+/*------------ Percentage Unit ---------------*/
+section{
+    background-color: pink;
+    width: 800px;
+    height: 800px;
+} 
+ /*Section Element is parent for div */ 
+
+
+div{
+    background-color: green;
+    width: 70%;
+    height: 20%
+}
+
+h1{
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 20%;
+    padding: 10%;
+}
+
+/*here h1 element is a child as well as parent of own*/
+
+/*------------ em unit----------*/
+
+/* article is parent of h2*/
+article{
+    font-size: 20px;
+}
+
+/* h2 has font size 1-times the font size of 40% of font size of article */
+
+h2{
+    font-size: 1em;
+}
+
+p{
+    font-size:2em;
+}
+
+/*-----------rem unit----------*/
+

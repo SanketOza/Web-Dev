@@ -1,0 +1,13 @@
+.centered{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+form{
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+   
+}

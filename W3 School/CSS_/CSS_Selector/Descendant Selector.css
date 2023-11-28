@@ -1,0 +1,27 @@
+*{
+    background-color: aliceblue;
+}
+
+button{
+    font-size: x-large;
+    color: teal;
+}
+
+h1,h2{
+    color:magenta;
+}
+
+#reset{
+    color:orange;
+    height:100px;
+}
+
+.tag{
+    color:green;
+    background-color: aqua;
+}
+
+footer a{
+    color :teal;
+}
+

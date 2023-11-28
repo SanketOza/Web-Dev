@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validations</title>
+
+    <link rel="stylesheet" href="form style.css">
+</head>
+<body>
+    
+<!--Required Attribute:- used to make mandatorily fill values for validation -->
+
+<form action="">
+
+<h2 style="padding-left: 20px;">Sign Up</h2>
+     <p style="padding-left: 20px;">
+
+        <label for="Fname">Enter Full Name</label><br>
+        <input type="text" name="Fname" id="Fname" placeholder="Mike James Anderson.." minlength="5" maxlength="20" required>
+<br><br>
+       
+        <label for="Mnumber">Enter Mobile Number</label><br>
+        <input type="number" name="Mnumber" id="Mnumber" placeholder="0123456789" maxlength="10" required>
+
+<br><br>
+         
+        <label for="Gender">Select Gender</label>
+        <label style="margin-left: 10px;" for="Male">M</label>
+        <input type="radio" name="select" id="Male" required> 
+        <label style="margin-left: 15px;" for="Female">F</label>
+        <input type="radio" name="select" id="Female" required>
+
+<br><br>
+        <label for="Age">Select Age</label>
+        <select name="age" id="Age" required>
+            <option value="select">select</option>
+            <option value="16-23">16-23</option>
+            <option value="24-30">24-30</option>
+            <option value="30-50">30-50</option>
+            <option value="50-80">50-80</option>
+            <option value="80-100">80-100</option>
+        </select>
+
+
+<br><br>
+        <label for="Uname">Enter Username</label><br>
+        <input type="text" id="Uname" placeholder="abcd.." name="username" required minlength="8" maxlength="20" >
+<br><br>
+        <label for="Pword">Enter Password</label><br>
+        <input type="password" name="Pword" placeholder="abcd..ABCD..123..$!@#" id="Password" required>
+
+<br><br>
+        <label for="E-mail">Enter Email</label><br>
+        <input type="email" name="E-mail" placeholder="abc@123" id="E-mail">
+
+<br><br>
+        <button style="margin-left: 37px;" type="submit">Submit</button>
+
+
+     </p>
+
+
+</form>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+*{
+    background-color: aliceblue;
+}
+
+button{
+    font-size: x-large;
+    color: teal;
+}
+
+
+h1,h2{
+    color:magenta;
+}
+
+#reset{
+    color:orange;
+    height:100px;
+}
+
+.tag{
+    color:green;
+    background-color: aqua;
+}
+
+footer a{
+    color :teal;
+}
+
+input + button{
+    background-color:bisque;
+}
+
+footer > a{
+    color: burlywood;
+}
+
+input[type="text"]{
+
+    color: thistle;
+    width: 300px;
+    background-color:blanchedalmond;
+}
+
+button:active{
+    background-color:red;
+}
+
+/*
+button:hover{
+
+    background-color: green;
+    color:white;
+}
+*/
